@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* ------ HEADER CSS ------ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid lightgray;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+}
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+  max-width: 200px;
+}
+
+#logo {
+  height: 30px;
+}
+#logoImg {
+  height: 30px;
+}
+.right-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0.2;
+  max-width: 200px;
+}
+.middle-listing {
+  display: none;
+}
+.bx-user,
+.bx-heart {
+  display: none;
+}
+.bx-menu {
+  display: flex;
+}
+#logoImg {
+  display: none;
+}
+#logo {
+  display: flex;
+}
+.bx {
+  font-size: 22px;
+}
+.item {
+  font-size: 12px;
+}
+/* ------ HEADER CSS ------ */
+
+@media (max-width: 575px) {
+  /* CSS rules specific to extra small devices */
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS rules specific to small devices */
+}
+
+/* Medium Devices (Laptops and Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules specific to medium devices */
+}
+
+/* Large Devices (Desktops and Large Screens) */
+@media (min-width: 1110px) {
+  /* CSS rules for screens smaller than 600px */
+
+  header {
+    padding: 0px 60px 0px 60px;
+  }
+  .bx-user,
+  .bx-heart {
+    display: flex;
+  }
+  .bx-menu {
+    display: flex;
+  }
+
+  .bx-menu {
+    display: none;
+  }
+
+  .item {
+    font-size: 16px;
+  }
+  .middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+  }
+  .middle-listing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #logoImg {
+    display: flex;
+  }
+  #logo {
+    display: none;
+  }
+  /* CSS rules specific to large devices */
+}
+
+/* Extra Large Devices (Large Desktops) 
+@media (min-width: 1200px) {
+   CSS rules specific to extra large devices 
+}
+*/
+@media screen and (min-width: 1110px) {
+}

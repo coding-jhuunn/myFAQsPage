@@ -1,0 +1,6 @@
+header
+
+    logo
+    padding
+    font-size for icons
+    arrange code for header
